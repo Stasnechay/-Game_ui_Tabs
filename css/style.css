@@ -1,0 +1,190 @@
+body{
+	background: url(../img/bg.jpg) center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+.ba-tabs__title {
+	background-color: #2b3040;
+	width: 600px;
+	height: 120px;
+	margin: 50px auto 0;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+   	list-style: none;
+  	justify-content: space-around;
+  	padding-left: 0;
+  	align-items: center;
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: #FFF;
+	
+
+		
+
+}
+.svg-icon {
+	height: 20px;
+	width: 20px;
+	fill: #FFF;
+	position: absolute;
+	top: 25px;
+	left: calc(50% - 10px);
+
+}
+
+.ba-tabs__title li {
+	cursor: pointer;
+	position: relative;	
+	opacity: 0.5;
+	line-height: 120px;
+
+	
+}
+.ba-tabs__title li:hover {
+	opacity: 0.9;
+	transition: color .3s ease-in;
+	
+}
+
+.ba-tabs__title li.active {
+	opacity: 1;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	
+}
+
+
+
+.ba-tabs__content {
+	display: none;
+	padding-top: 60px;
+	padding-bottom: 20px;
+
+}
+.ba-tabs__content.active {
+	display: block;
+	background-color: #212534;
+	width: 600px;
+	height: 425px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.right-col {
+	color: #FFF;
+	
+}
+.rating {
+	position: relative;
+	font-size: 25px;
+	color: #fff;
+	
+	
+
+}
+
+.ra {
+	position: absolute;
+	top: 22px;
+	left: calc(50% - 15px);
+}
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title h3 {
+	font-size: 32px;
+	margin-bottom: 10px;
+
+}
+.rating__text {
+	opacity: 0.8;
+}
+
+.rating__price {
+	font-size: 30px;
+	margin: 0;
+}
+.rating__price--sale {
+	margin: 0;
+	color: #fedc3f;
+}
+.button {
+	color: #fff;
+	background-color: #13e28d;
+	padding: 20px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.right-col__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content-align {
+	text-align: center;
+	color: #FFF;
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
